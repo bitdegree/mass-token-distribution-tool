@@ -25,7 +25,7 @@ if((toTransfer.length || 0) === 0) {
     return console.error('File is either malformed or contains no transfers.');
 }
 
-makeTransfer(toTransfer.pop());
+makeTransfer(toTransfer.shift());
 
 function makeTransfer(t) {
     const txParams = {
@@ -61,11 +61,11 @@ function makeTransfer(t) {
             console.log(t.address, data.result, 'OK');
         }
         if(toTransfer.length > 0) {
-            makeTransfer(toTransfer.pop());
+            makeTransfer(toTransfer.shift());
         }
     })
 }
 
 function toHex(input, padding) {
-    return '0x' + input.toString(16).padStart(padding || 0, "0");
+    return '0x' + (new BigNumber(input)).toString(16).padStart(padding || 0, "0");
 }
