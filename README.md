@@ -2,6 +2,10 @@
 
 Tool to create mass Ethereum transactions from CSV file. 
 
+### Intall
+
+```npm install csv got bignumber.js@5.0.0 ethereumjs-util ethereumjs-tx```
+
 ### Configure
 
 Edit `config.js` file. Enter your token address and its decimal places, private key of the distributing account and Etherscan API key.
