@@ -1,0 +1,32 @@
+{
+  "name": "mass-token-distribution-tool",
+  "version": "1.0.0",
+  "description": "BitDegree Mass Token Distribution Tool From CSV File",
+  "main": "parse.js",
+  "dependencies": {
+    "csv": "^5.1.1",
+    "bignumber.js": "^5.0.0",
+    "ethereumjs-tx": "^1.3.7",
+    "got": "^9.6.0",
+    "ethereumjs-util": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitdegree/mass-token-distribution-tool.git"
+  },
+  "keywords": [
+    "ethereum",
+    "tokens",
+    "erc-20"
+  ],
+  "author": "BitDegree",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bitdegree/mass-token-distribution-tool/issues"
+  },
+  "homepage": "https://github.com/bitdegree/mass-token-distribution-tool#readme"
+}

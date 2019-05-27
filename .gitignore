@@ -1,2 +1,4 @@
 .idea
 distribution-*
+node_modules
+package-lock.json
