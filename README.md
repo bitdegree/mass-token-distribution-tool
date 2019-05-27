@@ -2,7 +2,7 @@
 
 Tool to create mass Ethereum transactions from CSV file. 
 
-### Intall
+### Install
 
 ```npm install csv got bignumber.js@5.0.0 ethereumjs-util ethereumjs-tx```
 
